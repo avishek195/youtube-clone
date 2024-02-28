@@ -1,0 +1,43 @@
+
+.new-profile{
+    position: absolute;
+    width: 250px;
+    border-radius: 20px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    top: 32px;
+    right: 60px;
+    z-index: 5;
+    background-color: rgb(47, 44, 44);
+    color: azure;
+}
+.profile-pic{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.show-mini-profile{
+    
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    gap: 10px;
+}
+.gmail-details{
+    padding: 20px 20px;
+    /* border: 2px solid red; */
+    display: flex;
+
+    /* align-items: center; */
+    gap: 15px;
+    /* justify-content: space-between; */
+}
+.oth-chen{
+    cursor: pointer;
+    color: rgb(97, 97, 182);
+}
+.hr{
+    height: 10px;
+}

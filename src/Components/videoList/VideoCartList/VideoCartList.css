@@ -1,0 +1,68 @@
+.videocartlist-container{
+    overflow: scroll;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 5px;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+   
+}
+.pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.video-list{
+    /* border: 2px solid blue; */
+    border-radius: 20px;
+    height: 300px;
+    width: 450px;
+    background-color: rgb(175, 147, 111);
+}
+.video-pic{
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.owner-details{
+    display: flex;
+margin-top: 10px;
+    gap:10px ;
+}
+.owner-channel-pic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.others{
+    /* border: 2px solid green; */
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+}
+.cheenel-name{
+    margin-bottom: 2px;
+}
+.cheenel-name{
+    color: rgb(84, 81, 77);
+}
+.views-part{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(84, 81, 77);
+}

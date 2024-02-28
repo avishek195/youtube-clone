@@ -1,0 +1,24 @@
+.list-container{
+    margin-left: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.list-cart{
+    cursor: pointer;
+    height: 25px;
+    padding:5px 15px;
+    border-radius: 10px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    background-color: rgb(24, 24, 24);
+}

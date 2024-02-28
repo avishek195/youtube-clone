@@ -1,0 +1,32 @@
+.side-navbar-container{
+    /* position: sticky; */
+   /* overflow: hidden;
+  z-index: 1; */
+    height: auto;
+    width: 70px;
+    position: relative;
+    bottom: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.side-nav{
+    cursor: pointer;
+    font-size: 11px;
+    border-radius: 15px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.side-nav:hover{
+    background-color: rgb(213, 217, 217);
+}
+.icons{
+    font-size: 30px;
+}
