@@ -1,11 +1,18 @@
 import { Link } from "react-router-dom";
-import { FaCamera, FaBell, FaAlignJustify, FaSearch } from "react-icons/fa";
+import { FaCamera, FaBell, FaSearch } from "react-icons/fa";
 import { useState } from "react";
 
 import pic from "../../../public/images.svg";
 import profilePic from "../../../public/Mypic.jpeg";
-import "./Nevigation.css";
 import ProfileNavbar from "../ProfileNavBar/ProfileNavbar";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./Nevigation.css";
+import TemporaryDrawer from "../mui-components/Sidebar";
+AOS.init({
+  delay: 1000,
+  duration: 400,
+});
 
 const Nevigation = () => {
   const [signin, setSignIn] = useState(false);
@@ -22,9 +29,9 @@ const Nevigation = () => {
     <>
       <div className="nav-container">
         <div className="logo-container">
-          <Link className="four-line">
-            <FaAlignJustify />
-          </Link>
+          <TemporaryDrawer />
+          {/* <FaAlignJustify /> */}
+
           <Link>
             <img src={pic} alt="youtube" className="logo" />
           </Link>
